@@ -11,9 +11,9 @@ driver.get(urlpage)
 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
 time.sleep(30)
 
-#python_button = driver.find_elements_by_xpath("//input[@name='lang' and @value='Python']")[0]
-#for i in range(20):
-#    python_button.click()
+python_button = driver.find_elements_by_xpath("//input[@class='more']") # and @value='Python'
+for i in range(20):
+    python_button.click()
 
 
 
