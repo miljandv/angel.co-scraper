@@ -5,21 +5,23 @@ import time
 import pandas as pd
 from selenium.webdriver.common.keys import Keys
 urlpage = 'https://angel.co/companies'
-
+normal_form_raised = 'raised: low — high'
 uniques = []
 
 with open("search_words.txt") as f:
     content = f.readlines()
 keywords = [x.strip() for x in content]
 
-with open("permutators.txt") as f:
+with open("raised.txt") as f:
     content = f.readlines()
-permutations = [x.strip() for x in content]
-permutation = 2**len(permutations)-1
-
+raised = [x.strip() for x in content]
+raised_normalized = []
+for i in range(len(raised)):
+    for j in range(i,len(raised)):
+        raised_normalized.append(normal_form_raised.replace('low',raised[i]).replace('high',raised[j]))
 data = []               
 for keyword in keywords: 
-    for permut in range(1,permutation):      
+    for curr_raise in raised_normalized:      
         driver = webdriver.Firefox(executable_path = 'geckodriver')
         driver.get(urlpage)
         time.sleep(10)
@@ -27,31 +29,25 @@ for keyword in keywords:
         driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(keyword)
         driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(Keys.ENTER)
         time.sleep(10)
-        for j in range(len(permutations)):
-            if (1<<j) & permut:
-                driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(permutations[j])
-                driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(Keys.ENTER)
-                time.sleep(10)
+        driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(curr_raise)
+        driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(Keys.ENTER)
+        time.sleep(10)
         more = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='more']")
         print(len(more))
-        if len(more)==0:
-            driver.quit()
-            continue
-        for i in range(20):  
-            more[0].click()
-            print('Loading more data... (',i,'/20)')
-            time.sleep(3)
-            more = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='more']")
-            if len(more)==0:
-                break
+        if len(more)!=0:
+            for i in range(20):  
+                more[0].click()
+                print('Loading more data... (',i,'/20)')
+                time.sleep(3)
+                more = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='more']")
+                if len(more)==0:
+                    break
         
         results = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='company column']//*[@class='g-lockup']//*[@class='text']//*[@class='name']//*[@class='startup-link']")
         results_location = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='column location']//*[@class='value']")
         results_websites = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='column website']//*[@class='value']")
         results_employees = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='column company_size']//*[@class='value']")
         #result_raised = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='column raised hidden_column']//*[@class='value']")
-        
-        
         
         for i in range(len(results)):    
             company_name = results[i].text

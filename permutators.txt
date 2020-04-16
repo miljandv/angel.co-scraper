@@ -22,4 +22,3 @@ Series A
 Series B
 Series C
 Acquired
-raised: $10k — $10k
