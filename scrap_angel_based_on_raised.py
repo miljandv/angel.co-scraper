@@ -5,7 +5,7 @@ import time
 import pandas as pd
 from selenium.webdriver.common.keys import Keys
 urlpage = 'https://angel.co/companies'
-normal_form_raised = 'raised: low — high'
+normal_form_raised = 'raised: $low — $high'
 uniques = []
 
 with open("search_words.txt") as f:
@@ -17,7 +17,7 @@ with open("raised.txt") as f:
 raised = [x.strip() for x in content]
 raised_normalized = []
 for i in range(len(raised)):
-    for j in range(i,len(raised)):
+    for j in range(i+1,len(raised)):
         raised_normalized.append(normal_form_raised.replace('low',raised[i]).replace('high',raised[j]))
 data = []               
 for keyword in keywords: 
@@ -71,3 +71,13 @@ print(df)
 
 
 df.to_csv('Companies.csv')
+
+
+
+
+
+
+
+raised: $10k — $48k
+
+raised: $10k — $150k
