@@ -5,8 +5,10 @@ import time
 import pandas as pd
 from selenium.webdriver.common.keys import Keys
 urlpage = 'https://angel.co/companies'
-normal_form_raised = 'raised: $low — $high'
-uniques = []
+normal_form_raised = 'https://angel.co/companies?raised[min]=low&raised[max]=high'
+
+read = pd.read_csv('Companies.csv')
+uniques = read.iloc[:,1].astype(str).values.tolist()
 
 with open("search_words.txt") as f:
     content = f.readlines()
@@ -19,17 +21,14 @@ raised_normalized = []
 for i in range(len(raised)):
     for j in range(i+1,len(raised)):
         raised_normalized.append(normal_form_raised.replace('low',raised[i]).replace('high',raised[j]))
-data = []               
+data = read       
 for keyword in keywords: 
     for curr_raise in raised_normalized:      
         driver = webdriver.Firefox(executable_path = 'geckodriver')
-        driver.get(urlpage)
+        driver.get(curr_raise)
         time.sleep(10)
         driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']")[0].click()
         driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(keyword)
-        driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(Keys.ENTER)
-        time.sleep(10)
-        driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(curr_raise)
         driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(Keys.ENTER)
         time.sleep(10)
         more = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='more']")
@@ -57,7 +56,7 @@ for keyword in keywords:
             employees = results_employees[i].text
             #raised = result_raised[i].text
             if not company_name in uniques:
-                data.append({"Company name" : company_name, "Angel link" : angel_link, "Location" : location, "Website" : website, "Number of employees" : employees})#, "Raised" : raised
+                data.append({"Company name" : company_name, "Angel link" : angel_link, "Location" : location, "Website" : website, "Number of employees" : employees},ignore_index=True)#, "Raised" : raised
                 uniques.append(company_name)
         driver.quit()
         print('Number of companies extracted:' + str(len(uniques)))
@@ -76,8 +75,3 @@ df.to_csv('Companies.csv')
 
 
 
-
-
-raised: $10k — $48k
-
-raised: $10k — $150k

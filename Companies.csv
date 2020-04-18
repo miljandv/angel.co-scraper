@@ -1,25 +1,289 @@
-,Company name,Angel link,Location,Website,Number of employees
-0,Senp,https://angel.co/company/senp-1,Buenos Aires Province,senp.it,1-10
-1,HDWEBSOFT,https://angel.co/company/hdwebsoft,Ho Chi Minh City,hdwebsoft.com,51-200
-2,SoftUp,https://angel.co/company/softup,Bengaluru,softup.in,1-10
-3,MarkupChop,https://angel.co/company/markupchop,Bengaluru,markupchop.com,
-4,Devprentice,https://angel.co/company/devprentice,Charleston,devprentice.com,1-10
-5,Dimocon,https://angel.co/company/dimocon,Buenos Aires Province,dimocon.com,1-10
-6,Pintellect,https://angel.co/company/pintellect,Vancouver,pintellect.io,1-10
-7,Code4Startup,https://angel.co/company/code4startup,Melbourne,code4startup,1-10
-8,Symsolar,https://angel.co/company/symsolar,Cambridge,symsolar.com,-
-9,Ploxel,https://angel.co/company/ploxel,Newcastle upon Tyne,ploxel.com,1-10
-10,Generation Code,https://angel.co/company/generation-code,New York City,nycda.com,1-10
-11,Techstart,https://angel.co/company/techstart,Mumbai,techstart.info,1-10
-12,PSDgator,https://angel.co/company/psdgator,Thessaloniki,psdgator.com,-
-13,GBS IT Solutions,https://angel.co/company/gbs-it-solutions,Thiruvananthapuram,i-frt.com,1-10
-14,Techinflo Software Services,https://angel.co/company/techinflo-software-services,Bengaluru,techinflo.com,-
-15,Brett Gallie UX Consultant,https://angel.co/company/brett-gallie-ux-consultant,London,bcgallie.wixsite.com,
-16,SaaS Innovation Labs,https://angel.co/company/saas-innovation-labs,San Francisco,saasinnovationlabs.com,-
-17,Ameritel Ltd NIG & Ameritel Games,https://angel.co/company/ameritel-ltd-nig-ameritel-games,Benin City,Ameritel.co,-
-18,ATRAVEA,https://angel.co/company/atravea,London,executive4.com,1-10
-19,CodeWeGo,https://angel.co/company/codewego,Toledo,codewego.com,1-10
-20,StarCoStudio,https://angel.co/company/starcostudio-1,Minsk,starcostudio.com,11-50
-21,Airsite,https://angel.co/company/airsite,Moscow,airsite.co,1-10
-22,CodeMyTemplate,https://angel.co/company/codemytemplate,Bucharest,codemytemplate.com,1-10
-23,MindmineLabs,https://angel.co/company/mindminelabs,Dehradun,mindminelabs.com,1-10
+,Unnamed: 0,Company name,Angel link,Location,Website,Number of employees
+0,0,Rollinglobe,https://angel.co/company/rollinglobe,New York City,rollinglobe.com,1-10
+1,1,FlyinAway Travel Technologies,https://angel.co/company/flyinaway-travel-technologies,Denver,farescout.flyinaway.com,1-10
+2,2,t-Art,https://angel.co/company/t-art,Buenos Aires Province,t-artdesigns.com,-
+3,3,Viflux,https://angel.co/company/viflux,Buenos Aires Province,viflux.com,1-10
+4,4,ThingShare,https://angel.co/company/thingshare,Grand Rapids,thingshare.co,1-10
+5,5,CitalDoc,https://angel.co/company/citaldoc,Buenos Aires Province,citaldoc.com,-
+6,6,BedAbroad,https://angel.co/company/bedabroad,Los Angeles,bedabroad.com,1-10
+7,7,Fun2Boat,https://angel.co/company/fun2boat-1,Fort Lauderdale,fun2boat.com,1-10
+8,8,Robby,https://angel.co/company/robby_ai,Paris,robby.ai,1-10
+9,9,Ridingo,https://angel.co/company/ridingo,Bengaluru,ridingo.com,1-10
+10,10,Spacefinity,https://angel.co/company/spacefinity,Pittsburgh,spacefinity.com,1-10
+11,11,SurgeryEdu,https://angel.co/company/surgeryedu,Ann Arbor,surgeryedu.com,1-10
+12,12,Gaming Live,https://angel.co/company/gaming-live,Warsaw,gaminglive.tv,11-50
+13,13,Tyche,https://angel.co/company/tyche,Washington DC,tycherisk.co,1-10
+14,14,Saladshots,https://angel.co/company/saladshots,Los Angeles,saladshots.com,1-10
+15,15,ChemiSense,https://angel.co/company/chemisense,Berkeley,chemisense.co,1-10
+16,16,Radius,https://angel.co/company/radius-10,Santa Monica,radiuschatting.com,1-10
+17,17,PublishDrive,https://angel.co/company/publishdrive,Budapest,publishdrive.com,11-50
+18,18,Lifey,https://angel.co/company/lifeyband,San Francisco,lifeyband.com,1-10
+19,19,#LOOKEA,https://angel.co/company/lookea-1,Buenos Aires Province,lookea.me,
+20,20,Shipizy,https://angel.co/company/shipizy,Lisbon,shipizy.com,1-10
+21,21,Mogul Launcher,https://angel.co/company/mogul-launcher,Fullerton,mogullauncher.com,1-10
+22,22,Pheebo,https://angel.co/company/pheebo,Los Angeles,pheebo.com,1-10
+23,23,CreApps,https://angel.co/company/creapps,Monterrey,creapps.com.mx,11-50
+24,24,GruvIt,https://angel.co/company/gruvit-1,Berlin,gruvit.com,1-10
+25,25,LittleFish,https://angel.co/company/littlefish,Oklahoma City,getlittlefish.com,1-10
+26,26,Wing Ma'am,https://angel.co/company/wing-ma-am,Pittsburgh,wingmaam.com,1-10
+27,27,JuicedUp Charging,https://angel.co/company/juicedup-charging,Las Vegas,juicedup.us,1-10
+28,28,Objectify Technologies,https://angel.co/company/objectify-technologies,Kanpur,myobjectify.com,1-10
+29,29,Inventio Tech,https://angel.co/company/inventio-tech,Manila,dev.agilitycrew.com (portal under development),1-10
+30,30,Dualvis.io,https://angel.co/company/dualvis-io,Santiago,dualvis.io,1-10
+31,31,Crispy Driven Pixels,https://angel.co/company/crispy-driven-pixels,San Francisco,ethereal.ly,1-10
+32,32,Eternime,https://angel.co/company/eternime,San Francisco,eterni.me,1-10
+33,33,Ultra,https://angel.co/company/ultra-inc,Portland,liveultrahealthy.com,1-10
+34,34,Vendedy Corporation,https://angel.co/company/vendedy-corporation,New York City,Vendedy.com,1-10
+35,35,Onblay,https://angel.co/company/onblay,Ogden,onblay.com,1-10
+36,36,Ecosia,https://angel.co/company/ecosia,Berlin,ecosia.org,11-50
+37,37,WeGrow,https://angel.co/company/wegrow-2,Boulder,wegrowapp.com,1-10
+38,38,Mighty Home App,https://angel.co/company/mighty-3,Pittsburgh,mightyhomeapp.com,1-10
+39,39,RightClick,https://angel.co/company/rightclickio,Los Angeles,rightclick.io,11-50
+40,40,Veibe,https://angel.co/company/veibe,Fremont,veibe.com,-
+41,41,Minutizer = Paypal for time,https://angel.co/company/minutizer-paypal-for-time,Romania,minutizer.com,1-10
+42,42,NumberPicture,https://angel.co/company/numberpicture,Sofia,numberpicture.com,1-10
+43,43,Pedius,https://angel.co/company/pedius,Rome,pedius.org,1-10
+44,44,Planedia,https://angel.co/company/planedia,Barcelona,planedia.com,1-10
+45,45,Syncalike,https://angel.co/company/syncalike,Santa Monica,syncalike.com,1-10
+46,46,SocialDrv,https://angel.co/company/socialdrv,Fremont,socialdrv.com,1-10
+47,47,DreamHighr,https://angel.co/company/dreamhighr,Calgary,dreamhighr.co,1-10
+48,48,Neo Poker Lab,https://angel.co/company/neo-poker-lab,Las Vegas,neopokerbot.com,1-10
+49,49,AVEI,https://angel.co/company/avei,Centreville,avei.space,1-10
+50,50,MERGIMS,https://angel.co/company/mergims,Rwanda,mergims.com,1-10
+51,51,Lyra : Sold,https://angel.co/company/lyra-sold,Los Angeles,lyrasold.com,1-10
+52,52,Guarnic,https://angel.co/company/guarnic,Buenos Aires Province,guarnic.com,1-10
+53,53,Logkr Media,https://angel.co/company/logkr-media,Santa Monica,logkr.com,
+54,54,The BetaBox,https://angel.co/company/the-betabox,San Jose,secret,1-10
+55,55,Dinobo,https://angel.co/company/dinobo,Los Angeles,dinobo.com,1-10
+56,56,Drive Thru Production,https://angel.co/company/drive-thru-production,New York City,drivethruproduction.com,-
+57,57,gamejoule,https://angel.co/company/gamejoule,Cincinnati,gamejoule.com,1-10
+58,58,GetOlly,https://angel.co/company/getolly,Santiago,getolly.com,11-50
+59,59,Flying Chalks,https://angel.co/company/flying-chalks,Singapore,flyingchalks.com,11-50
+60,60,Fixit,https://angel.co/company/fixit,San Francisco,fixit.im,1-10
+61,61,SkyBulls,https://angel.co/company/skybulls1,San Francisco,skybulls.com,1-10
+62,62,Smile Merchants,https://angel.co/company/smile-merchants,Mumbai,smilemerchants.in,-
+63,63,fairandsquare.ie,https://angel.co/company/fairandsquare-ie,Dublin,fairandsquare.ie,1-10
+64,64,iLovMode,https://angel.co/company/ilovmode-1,Buenos Aires Province,ilovmode.com,1-10
+65,65,BookNow,https://angel.co/company/booknow,Nairobi,booknow.co.ke,-
+66,66,Medxnote,https://angel.co/company/medxnote,Dublin,medxnote.com,1-10
+67,67,NewHaus,https://angel.co/company/newhaus-1,Tijuana,newhaus.com.mx,1-10
+68,68,Rise Fitness,https://angel.co/company/rise-fitness,Toronto,risefitness.ca,1-10
+69,69,Tethered Air,https://angel.co/company/tethered-air,Atlanta,tetheredair.com,1-10
+70,70,kurv,https://angel.co/company/kurv,Buenos Aires Province,kurv.co,1-10
+71,71,BAABEDO,https://angel.co/company/baabedo,Berlin,baabedo.com,1-10
+72,72,TrackingTime,https://angel.co/company/trackingtime,Buenos Aires Province,trackingtime.co,1-10
+73,73,Fylp,https://angel.co/company/fylp,Hong Kong,fylp.com,1-10
+74,74,Pivii Technologies,https://angel.co/company/piviitech,Berlin,pivii.co,1-10
+75,75,Comfable,https://angel.co/company/comfable,Toronto,Comfable.com,1-10
+76,76,Embarkee,https://angel.co/company/embarkee-1,Lima District,embarkee.com,1-10
+77,77,Fosefi,https://angel.co/company/fosefi,Delaware,fosefi.com,1-10
+78,78,PleIQ,https://angel.co/company/pleiq,Santiago,pleiq.com,1-10
+79,79,Hulah,https://angel.co/company/hulah,London,hulah.com,1-10
+80,80,Puerto Finanzas,https://angel.co/company/puerto-finanzas,Buenos Aires Province,puertofinanzas.com,1-10
+81,81,Protection,https://angel.co/company/useprotection,-,useprotection.me,1-10
+82,82,Rachei,https://angel.co/company/rachei,Rio de Janeiro,rachei.com,1-10
+83,83,TRUTH BIOMEDICAL,https://angel.co/company/truth-biomedical,Kolkata,truthbiomedical.com,11-50
+84,84,Veritaseum,https://angel.co/company/ultracoin,New York City,veritaseum.com,1-10
+85,85,Graphenest - Advanced Nanotechnology,https://angel.co/company/graphenest,Aveiro,graphenest.com,1-10
+86,86,Travel Later,https://angel.co/company/travel-later-3,Chicago,travellater.com,1-10
+87,87,Unbound VR,https://angel.co/company/unbound-vr,Buenos Aires Province,unboundvr.com,1-10
+88,88,LiteUp,https://angel.co/company/liteup,Budapest,liteup.org,1-10
+89,89,Mapplas,https://angel.co/company/mapplas,San Sebastián,mapplas.com,1-10
+90,90,Vinveli Unmanned Systems,https://angel.co/company/vinveli-unmanned-systems,Austin,vinveli.org,1-10
+91,91,AIRMOTE,https://angel.co/company/imote,Rabat,Website,1-10
+92,92,HOMECAMP,https://angel.co/company/homecamp,Sydney,home-camp.com,1-10
+93,93,Gamebership.com,https://angel.co/company/gamebership-com,Guadalajara,gamebership.com,1-10
+94,94,Weshare USA L.L.C.,https://angel.co/company/we-share,Paris,weshare.pro,11-50
+95,95,Sure,https://angel.co/company/surebot,London,surebot.io,1-10
+96,96,FomoTravel,https://angel.co/company/fomotravel,Cape Town,fomo.travel,1-10
+97,97,goSporto,https://angel.co/company/gosporto,Gurgaon,gosporto.com,-
+98,98,Frontier Microscopy,https://angel.co/company/frontier-microscopy,Australia,frontiermicroscopy.com,1-10
+99,99,KnotMyYacht,https://angel.co/company/knotmyyacht-1,Los Angeles,knotmyyacht.com,-
+100,100,Windsale Marketing,https://angel.co/company/windsale-marketing,Melbourne,windsale.com.au,1-10
+101,101,StudentSphere,https://angel.co/company/eventsphere,Montreal,events.studentsphere.ca,1-10
+102,102,VisioTech Solutions,https://angel.co/company/visiotech-solutions-1,Bahawalpur,cloud.visiotechsolutions.com,1-10
+103,103,Tributari.es,https://angel.co/company/tributari-es,-,tributari.es,1-10
+104,104,MX,https://angel.co/company/mx,London,marketing-x.com,1-10
+105,105,PrizeAid,https://angel.co/company/prizeaid,London,prizeaid.com,-
+106,106,Merit,https://angel.co/company/merit,Montevideo Department,merithr.co,1-10
+107,107,Visualfy,https://angel.co/company/visualfy,Valencia,visualfy.com,1-10
+108,108,Linguoo,https://angel.co/company/linguoo-1,Montevideo Department,linguoo.com,11-50
+109,109,Emerging Technology Ventures,https://angel.co/company/emerging-technology-ventures,Alamogordo,etvamerica.com,-
+110,110,SimpliFly App,https://angel.co/company/simplifly,Valencia,simpliflyapp.com,1-10
+111,111,Chefensa,https://angel.co/company/chefensa,Bengaluru,Chefensa.com,
+112,112,CityCrop Automated Indoor Farming,https://angel.co/company/citycrop,Athens,citycrop.io,1-10
+113,113,Infografz,https://angel.co/company/infografz,London,infografz.com,1-10
+114,114,StomatoBot Technologies,https://angel.co/company/stomatobot-technologies,Pune,StomatoBot.com,-
+115,115,Phoenix Filming,https://angel.co/company/phoenix-filming-1,-,phoenixfilming.com,
+116,116,getCode,https://angel.co/company/getcode-dev,Turkey,get-code.tk,1-10
+117,117,Sales Team Six,https://angel.co/company/salesteamsix,Syracuse,salesteamsix.com,1-10
+118,118,Booker Garden,https://angel.co/company/booker-3,Zagreb,booker.garden,1-10
+119,119,Wolla,https://angel.co/company/wolla-1,Buenos Aires Province,wolla.com.ar,-
+120,120,Splitbin,https://angel.co/company/splitbin,New York City,splitbin.com,1-10
+121,121,CabbyGo - Need a ride?,https://angel.co/company/cabbygo,Pittsburgh,cabbygo.com,1-10
+122,122,ExtendedRelative,https://angel.co/company/extendedrelative,London,extendedrelative.com,1-10
+123,123,Orion Productions,https://angel.co/company/orion-productions-1,Portland,starshiporion.net,1-10
+124,124,BizClout,https://angel.co/company/bizclout,-,bizclout.com,1-10
+125,125,RecurEvent,https://angel.co/company/recurevent,San Francisco,recurevent.com,1-10
+126,126,Close Job,https://angel.co/company/close-job,Santiago,closejob.cl,1-10
+127,127,Roundbob.com,https://angel.co/company/roundbob-com,Uganda,roundbob.com,1-10
+128,128,Tripmule,https://angel.co/company/tripmule-1,London,tripmule.com,
+129,129,DoctorKePaas,https://angel.co/company/doctorkepaas,Noida,doctorkepaas.com,1-10
+130,130,Flowwow.com,https://angel.co/company/flowwow-2,Moscow,flowwow.com,11-50
+131,131,Viadedo,https://angel.co/company/viadedo,Asuncion,viadedo.com,-
+132,132,ProveYourSkillz,https://angel.co/company/proveyourskillz-1,Malta,proveyourskillz.com,1-10
+133,133,TwishQ,https://angel.co/company/twishq,Gurgaon,twishq.com,-
+134,134,Alkaline Golf,https://angel.co/company/peercar,Ewa Beach,alkalinegolf.com,1-10
+135,135,Vidbead,https://angel.co/company/vidbead,Buenos Aires Province,vidbead.com,1-10
+136,136,"MusicIDB (from Megabase, Inc)",https://angel.co/company/musicidb,Lowell,MusicIDB.com,1-10
+137,137,VBNet,https://angel.co/company/vbnet,Dresden,vermieter-bewertung.net,
+138,138,Blabster,https://angel.co/company/blabster,Dallas,blabster.com,1-10
+139,139,GreekPlug,https://angel.co/company/greekplug,Miami,greekplug.com,1-10
+140,140,QReca!,https://angel.co/company/qreca,Ioannina,qreca.com,1-10
+141,141,eLUHY,https://angel.co/company/eluhy,Chicago,eluhy.com,1-10
+142,142,"ObiNo, mobile Weight Loss Coach",https://angel.co/company/obino-mobile-weight-loss-coach,-,obino.in,1-10
+143,143,Creative Canvas,https://angel.co/company/creative-canvas,Los Angeles,creativecanvas.com,1-10
+144,144,HacemeUnRegalo.com,https://angel.co/company/hacemeunregalo-com-1,Buenos Aires Province,hacemeunregalo.com,1-10
+145,145,AirKitty,https://angel.co/company/airkitty,Manchester,airkitty.co.uk,1-10
+146,146,Pikit,https://angel.co/company/pikit,Louisville,pikit.com,1-10
+147,147,Zstat,https://angel.co/company/zstat,Cambridge,zstat.us,1-10
+148,148,SCS,https://angel.co/company/scs,Austin,not create,1-10
+149,149,Charter Smarter,https://angel.co/company/charter-smarter,Panama City,SplitTrips.com,1-10
+150,150,Revolutionary Advertising Products & Solutions Ltd.,https://angel.co/company/revolutionary-advertising-products-solutions-ltd,Jamaica,revolutionaryads.com,1-10
+151,151,Facetoface,https://angel.co/company/facetoface,Baku,kes.az,11-50
+152,152,Askmentor,https://angel.co/company/askmentor,India,askmentor.com,51-200
+153,153,Welkeys,https://angel.co/company/welkeys,Paris,welkeys.com,1-10
+154,154,Move Smart,https://angel.co/company/move-smart,London,movesmartapp.com,-
+155,155,Livve - Relax when you can ...,https://angel.co/company/livve-relax-when-you-can,San Diego,Website,1-10
+156,156,Speaking walls,https://angel.co/company/speaking-walls,Delhi,speakingwalls.in,1-10
+157,157,Airnugget,https://angel.co/company/airnugget,Melbourne,airnugget.com,1-10
+158,158,Funda,https://angel.co/company/funda-ai,London,funda.co,1-10
+159,159,Muriquee UG,https://angel.co/company/muriquee-ug-1,Berlin,muriquee.com,1-10
+160,160,SPeasy by wemoTech,https://angel.co/company/speasy-by-wemotech,Brighton,wemotech.co.uk,1-10
+161,161,The Social Resource,https://angel.co/company/the-social-resource-2,Colorado,thesocialresouce.net,1-10
+162,162,Vent,https://angel.co/company/vent-1,Toronto,get-vent.com,1-10
+163,163,PeekAfar,https://angel.co/company/peekafar,Philadelphia,peekafar.com,-
+164,164,TTM,https://angel.co/company/ttm,Sioux Falls,hypothermiatherapy.com,1-10
+165,165,BULLBULL,https://angel.co/company/bullbull,"Jordan, JO",bullbull.net,1-10
+166,166,Blue-Chip Unmanned Aerial Solutions,https://angel.co/company/blue-chip-unmanned-aerial-solutions,Wichita,blue-chipuas.com,1-10
+167,167,Gradlancer,https://angel.co/company/gradlancer,Portsmouth,gradlancer.co.uk,-
+168,168,UMOGA,https://angel.co/company/umoga-1,London,umoga.com,-
+169,169,BoxToEat,https://angel.co/company/boxtoeat,San Francisco,boxtoeat.com,-
+170,170,Ploud.io,https://angel.co/company/ploud-io,Bengaluru,ploud.io,1-10
+171,171,MedTek Devices,https://angel.co/company/medtek-devices-1,Toronto,medtekdevices.com,1-10
+172,172,Reelmonk,https://angel.co/company/reelmonk,Kochi,reelmonk.com,1-10
+173,173,Soggy Doggy Group,https://angel.co/company/soggy-doggy-group-1,Melbourne,soggydoggygroup.com,
+174,174,GST SOFTWARE,https://angel.co/company/gst-software,Missoula,gstsoftware.biz,1-10
+175,175,Tyto Games,https://angel.co/company/tyto-games,Israel,tytogames.com,
+176,176,American Physical Therapy Center,https://angel.co/company/american-physical-therapy-center,Lagos,aptwc.net,-
+177,177,UPYME,https://angel.co/company/upyme,Buenos Aires,upyme.com.ar,-
+178,178,SmatSocial,https://angel.co/company/smatsocial,Hyderabad,smatsocial.com,11-50
+179,179,INBERA,https://angel.co/company/inbera-1,San Luis Potosi,inbera.mx,-
+180,180,Transfer1.net,https://angel.co/company/transfer1-net,Tallinn,transfer1.net,-
+181,181,Goldenrock Nightclub,https://angel.co/company/goldenrock-nightclub,West Hollywood,vibzenightclub.com,1-10
+182,182,HOZIYANA GROUP,https://angel.co/company/hoziyana-group,Rwanda,cyamunara.com,1-10
+183,183,Thats My Plan,https://angel.co/company/thats-my-plan-2,Pune,thatsmyplan.org,1-10
+184,184,Ayni,https://angel.co/company/ayni,Quito,beayni.com,-
+185,185,Crazzzy Travel,https://angel.co/company/crazzzy-travel,Tallahassee,crazzzytravel.com,1-10
+186,186,Gopeers,https://angel.co/company/gopeers,Chicago,gopeers.com,
+187,187,Scigenity Technologies,https://angel.co/company/scigenity-technologies,Beverly Hills,scigenitytech.com,1-10
+188,188,Salomon Enterprise,https://angel.co/company/salomon-enterprise,London,painlessbra.com,1-10
+189,189,Price4Limo,https://angel.co/company/price4limo,Boynton Beach,price4limo.com,11-50
+190,190,Sanwo,https://angel.co/company/sanwo,Lagos,sanwo.org,11-50
+191,191,D'clic,https://angel.co/company/d-clic,San Francisco,dclicbyyapo.com,1-10
+192,192,audiodevel.com,https://angel.co/company/audiodevel-com,Lisbon,audiodevel.com,1-10
+193,193,Mavin Skills,https://angel.co/company/sochgenie,Bengaluru,sochgenie.com,1-10
+194,194,inCafe,https://angel.co/company/incafe,Kyiv city,incafe.co,1-10
+195,195,HAC Technology Vietnam,https://angel.co/company/hac-technology-vietnam,Vietnam,diadiemcuoi.vn,1-10
+196,196,Robotic Handling System (RHS),https://angel.co/company/robotic-handling-system-rhs,Milpitas,rhs-corp.com,-
+197,197,FORTMENT,https://angel.co/company/fortment,California,fortment.com,
+198,198,All the Curries,https://angel.co/company/all-the-curries,Houston,allthecurries.com,
+199,199,Mtor,https://angel.co/company/mtor,Huntington Beach,mtoredu.com,1-10
+200,200,Deepscope,https://angel.co/company/deepscope,Bangkok,deepscope.com,1-10
+201,201,partyeswatini,https://angel.co/company/partyeswatini,Mbabane,partyeswatini.com,1-10
+202,202,Kiwaho Lab of Energy & Ecology,https://angel.co/company/kiwaho-lab-of-energy-ecology,Mountain Home,1drv.ms,1-10
+203,203,Mangosteen Eco Lifestyle,https://angel.co/company/mangosteen-eco-lifestyle-1,Indore,mangosteenecolifestyle.com,-
+204,204,RevAmp Technologies,https://angel.co/company/revamp-technologies,Israel,RevAmp.tech,1-10
+205,205,Sandaero Aerosystems,https://angel.co/company/sandaero-aerosystems,New York City,sandaero.com,-
+206,206,Sun Trucking,https://angel.co/company/sun-trucking,Houston,none,
+207,207,DriveAppeal,https://angel.co/company/driveappeal-1,Philadelphia,driveappeal.wix.com,1-10
+208,208,Find Me Ink,https://angel.co/company/find-me-ink,Chicago,findmeink.com,1-10
+209,209,iStudy Smart,https://angel.co/company/istudy-smart,London,istudysmart.eu,
+210,210,Careerpedia,https://angel.co/company/careerpedia,Lagos,careerpedia.ng,-
+211,211,Heallify,https://angel.co/company/heallify,Pune,heallify.com,1-10
+212,212,Archaic Solutions OPC,https://angel.co/company/archaic-solutions-opc,Gurgaon,vikhyatrawla.wix.com,1-10
+213,213,Happ,https://angel.co/company/happ-1,Kazakhstan,happapp.info,
+214,214,Protobots,https://angel.co/company/protobots-1,San José,protobots.com,
+215,215,Habashwe,https://angel.co/company/african-digital-experiences,South Africa,habashwe.com,1-10
+216,216,I Glass Mediaworks,https://angel.co/company/i-glass-mediaworks,Mumbai,worldmusiccommunity.com,11-50
+217,217,Picadoo,https://angel.co/company/picadoo,Johannesburg,picadoo.co.za,
+218,218,ecodeneige,https://angel.co/company/ecodeneige,Marseille,euroquity.com,-
+219,219,Bfit Technologies,https://angel.co/company/bfit-technologies,Bengaluru,anygofitness.com,1-10
+220,220,BaseRails,https://angel.co/company/baserails,Providence,baserails.com,1-10
+221,221,ToolGard,https://angel.co/company/toolgard,Chattanooga,toolgard.com,1-10
+222,222,IlluminateHealth,https://angel.co/company/illuminatehealth,United States,chemistry.beloit.edu,1-10
+223,223,St.Blaise,https://angel.co/company/st-blaise,Macomb,patft.uspto.gov,1-10
+224,224,Taktik airsoft,https://angel.co/company/taktik-airsoft,Montreal,taktikairsoft.com,
+225,225,Meridian Health Pte,https://angel.co/company/meridian-health-pte,Singapore,chimaster.me,
+226,226,COME,https://angel.co/company/come-3,Cusco,comeenmimesa.com,1-10
+227,227,Hypomo - Digital Mortgage Broker,https://angel.co/company/hypomo,Kingston,hypomo.com,1-10
+228,228,ReelWurld,https://angel.co/company/reelwurld,New York City,see.thereelwurld.com,1-10
+229,229,Picnara,https://angel.co/company/picnara,Noida,picnara.com,11-50
+230,230,lululittle,https://angel.co/company/lululittle-1,Beirut,lululittle.me,-
+231,231,Social Grid,https://angel.co/company/social-grid-1,Lisbon,socialgrid.pt,-
+232,232,Yoop Tech,https://angel.co/company/yoop-tech,London,yoop.io,-
+233,233,FreshAir,https://angel.co/company/freshair-car-freshener,Canada,freshair-car.com,1-10
+234,234,Spothire,https://angel.co/company/spothire,Bangladesh,spothire.co,1-10
+235,235,Kadeaa,https://angel.co/company/kadeaa,Mexico City,kadeaa.com,1-10
+236,236,One Stop Wellness,https://angel.co/company/one-stop-wellness,Austin,onestopwellness.org,1-10
+237,237,Stretech,https://angel.co/company/stretech,Kelowna,kingofvienna.com,-
+238,238,Nimble,https://angel.co/company/nimbletoken,London,nmbl.info,-
+239,239,How 2 Ventures,https://angel.co/company/how-2-ventures,San Francisco,how2ventures.com,-
+240,240,hireXP,https://angel.co/company/www-hirexp-com,Singapore,hireXP.com,11-50
+241,241,Ordaap,https://angel.co/company/ordaap,Chennai,ordaap.com,1-10
+242,242,BotsFactory,https://angel.co/company/botsfactoryio,Montevideo,botsfactory.io,
+243,243,GOOGABOX (GOOGABOX WORLD INTERNATIONAL),https://angel.co/company/googabox-googabox-world-international,Santiago de Las Vegas,GOOGABOX.COM,-
+244,244,Definitechs,https://angel.co/company/definitechs-1,Montreal,definitechs.com,-
+245,245,Rebill,https://angel.co/company/rebillto,Buenos Aires,rebill.to,1-10
+246,246,Aidapp,https://angel.co/company/aidapp-1,Bengaluru,aidapp.in,11-50
+247,247,Kumbil,https://angel.co/company/kumbil,Kochi,peotive.com,1-10
+248,248,kentnix sarl,https://angel.co/company/kentnix-sarl,Yaounde,kentnix.com,1-10
+249,249,mBreath Technologies,https://angel.co/company/mbreath-technologies,India,sleepdoc.ai,-
+250,250,AR MARKET SRL,https://angel.co/company/ar-market-srl,Rome,arealitymarket.com,1-10
+251,251,agreemint,https://angel.co/company/agreemint-com,San Francisco,agreemint.com,1-10
+252,252,botsensei,https://angel.co/company/botsensei,Chicago,thebotsensei.com,11-50
+253,253,VakSea,https://angel.co/company/vaksea,Baltimore,vaksea.com,1-10
+254,254,zeroone.ai,https://angel.co/company/zeroone-ai,Toronto,zeroone.ai,1-10
+255,255,Ubitrack,https://angel.co/company/ubitrack,Sofia,ubitrack.eu,1-10
+256,256,Spliqs Intelligent Media,https://angel.co/company/spliqs-intelligent-media,Vancouver,spliqs.com,1-10
+257,257,Omdena,https://angel.co/company/omdena,Palo Alto,omdena.com,51-200
+258,258,Olimpo Labs,https://angel.co/company/olimpo-labs,Atlanta,olimpolabs.com,1-10
+259,259,Mazaotech,https://angel.co/company/mazaotech1,Nairobi County,hayvest.com,1-10
+260,260,Endlist,https://angel.co/company/endlist,Philippines,theendlist.com,1-10
+261,261,BE LUX,https://angel.co/company/be-lux-1,Atlanta,belux.life,1-10
+262,262,Tango Vision,https://angel.co/company/tangovision,Moscow,tango.vision,1-10
+263,263,Triangle UAS,https://angel.co/company/triangle-uas-1,Raleigh,triangleuas.com,1-10
+264,264,Artifred,https://angel.co/company/alfred-a-i,Passaic,artifred.com,1-10
+265,265,Flote App,https://angel.co/company/flote-app,San Francisco,Website,1-10
+266,266,Versattire,https://angel.co/company/versattire,Wellington,myversattire.com,1-10
+267,267,Megahash,https://angel.co/company/megahash-2,Hartford,megahash.us,1-10
+268,268,Vrbff.com,https://angel.co/company/vrbff-com,Portland,vrbff.com,1-10
+269,269,Joyn Social Media,https://angel.co/company/joyn-social-media,San Francisco,joynsocialmedia.com,1-10
+270,270,HundredGraphs,https://angel.co/company/hundredgraphs,King of Prussia,hundredgraphs.com,1-10
+271,271,Metvy,https://angel.co/company/metvy-1,Gurgaon,metvy.com,1-10
+272,272,Trium Designs,https://angel.co/company/trium-designs-1,Vadodara,triumdesigns.com,1-10
+273,273,RouteRavel,https://angel.co/company/routeravel,Saint Petersburg,routeravel.com,1-10
+274,274,Hitekki,https://angel.co/company/hitekki-1,Kiev,hitekki.com,1-10
+275,275,Shubh Mani Solutions,https://angel.co/company/shubh-mani-solutions,Bengaluru,ftd.travel,1-10
+276,276,AGRIGATOR,https://angel.co/company/agrigator,Bhopal,agrigator.co,1-10
+277,277,HotelCiti,https://angel.co/company/hotelciti,Nigeria,hotelciti.com,1-10
+278,278,Idiosnow,https://angel.co/company/idiosnow,Noida,idiosnow.com,1-10
+279,279,spares.io,https://angel.co/company/spares-io,San Francisco,spares.io,1-10
+280,280,Visdraw,https://angel.co/company/visdraw,Delhi,visdraw.com,1-10
+281,281,KiraCore,https://angel.co/company/kiracore,Malta,kiracore.com,1-10
+282,282,PushStash,https://angel.co/company/push-stash,Dallas,pushstash.com,1-10
+283,283,Bainom,https://angel.co/company/bainom-1,San Francisco,bainom.com,1-10
+284,284,NIA Technologies,https://angel.co/company/nia-tech-1,London,nia-technologies.com,1-10
+285,285,Fotisto,https://angel.co/company/fotisto,Pakistan,fotisto.pk,1-10
+286,286,NOCO,https://angel.co/company/noco-energy-1,London,nocoenergy.co.uk,1-10
+287,287,Twillo,https://angel.co/company/twillo-3,Los Angeles,twillo.tech,1-10

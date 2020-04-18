@@ -18,7 +18,7 @@ with open("permutators.txt") as f:
 permutations = [x.strip() for x in content]
 permutation = 2**len(permutations)-1
 
-data = []               
+data = read               
 for keyword in keywords: 
     for permut in range(1,permutation):      
         driver = webdriver.Firefox(executable_path = 'geckodriver')
@@ -63,7 +63,7 @@ for keyword in keywords:
             #raised = result_raised[i].text
             if not company_name in uniques:
                 data.append({"Company name" : company_name, "Angel link" : angel_link, "Location" : location, "Website" : website, "Number of employees" : employees})#, "Raised" : raised
-                uniques.append(company_name)
+                uniques.append(company_name,ignore_index=True)
         driver.quit()
         print('Number of companies extracted:' + str(len(uniques)))
         df = pd.DataFrame(data)
