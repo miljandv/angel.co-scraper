@@ -21,7 +21,7 @@ raised_normalized = []
 for i in range(len(raised)):
     for j in range(i+1,len(raised)):
         raised_normalized.append(normal_form_raised.replace('low',raised[i]).replace('high',raised[j]))
-data = read       
+data = []    
 for keyword in keywords: 
     for curr_raise in raised_normalized:      
         driver = webdriver.Firefox(executable_path = 'geckodriver')
@@ -56,12 +56,12 @@ for keyword in keywords:
             employees = results_employees[i].text
             #raised = result_raised[i].text
             if not company_name in uniques:
-                data.append({"Company name" : company_name, "Angel link" : angel_link, "Location" : location, "Website" : website, "Number of employees" : employees},ignore_index=True)#, "Raised" : raised
+                data.append({"Company name" : company_name, "Angel link" : angel_link, "Location" : location, "Website" : website, "Number of employees" : employees})#, "Raised" : raised
                 uniques.append(company_name)
         driver.quit()
         print('Number of companies extracted:' + str(len(uniques)))
         df = pd.DataFrame(data)
-        df.to_csv('Companies.csv')
+        df.to_csv('Companies.csv',header=False)
         
 df = pd.DataFrame(data)
 print(df)
@@ -69,7 +69,7 @@ print(df)
 
 
 
-df.to_csv('Companies.csv')
+df.to_csv('Companies.csv', header=False)
 
 
 
