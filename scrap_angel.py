@@ -6,7 +6,8 @@ import pandas as pd
 from selenium.webdriver.common.keys import Keys
 urlpage = 'https://angel.co/companies'
 
-uniques = []
+read = pd.read_csv('Companies.csv')
+uniques = read.iloc[:,1]
 
 with open("search_words.txt") as f:
     content = f.readlines()
