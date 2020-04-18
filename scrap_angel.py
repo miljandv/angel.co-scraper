@@ -6,10 +6,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-def main():
-    urlpage = 'https://angel.co/companies'
-    read = pd.read_csv('Companies.csv')
-    uniques = read.iloc[:, 1].to_list()
+def setup():
+    companies = pd.read_csv('Companies.csv')
+    uniques = companies.iloc[:, 1].to_list()
     with open("cfgs/search_words.txt") as f:
         content = f.readlines()
     keywords = [x.strip() for x in content]
@@ -17,11 +16,19 @@ def main():
         content = f.readlines()
     permutations = [x.strip() for x in content]
     permutation = 2 ** len(permutations) - 1
-    data = read
+
+    return companies, keywords, permutation, permutations, uniques
+
+
+def main():
+    target_url = 'https://angel.co/companies'
+    data, keywords, n_permutations, permutations, uniques = setup()
+
     for keyword in keywords:
-        for permut in range(1, permutation):
+        for permutation in range(1, n_permutations):
             driver = webdriver.Firefox(executable_path='geckodriver')
-            driver.get(urlpage)
+            driver.maximize_window()
+            driver.get(target_url)
             time.sleep(10)
             driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='search-box']")[0].click()
             driver.find_elements_by_xpath(
@@ -30,9 +37,9 @@ def main():
             driver.find_elements_by_xpath(
                 "//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[0].send_keys(
                 Keys.ENTER)
-            time.sleep(10)
+
             for j in range(len(permutations)):
-                if (1 << j) & permut:
+                if (1 << j) & permutation:
                     driver.find_elements_by_xpath(
                         "//*[@class='main_container']//*[@class='search-box']//*[@class='input keyword-input']")[
                         0].send_keys(permutations[j])
