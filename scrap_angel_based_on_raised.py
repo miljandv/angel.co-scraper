@@ -10,11 +10,11 @@ normal_form_raised = 'https://angel.co/companies?raised[min]=low&raised[max]=hig
 read = pd.read_csv('Companies.csv')
 uniques = read.iloc[:,1].astype(str).values.tolist()
 
-with open("search_words.txt") as f:
+with open("cfgs/search_words.txt") as f:
     content = f.readlines()
 keywords = [x.strip() for x in content]
 
-with open("raised.txt") as f:
+with open("cfgs/raised.txt") as f:
     content = f.readlines()
 raised = [x.strip() for x in content]
 raised_normalized = []
