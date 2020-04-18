@@ -21,6 +21,7 @@ raised_normalized = []
 for i in range(len(raised)):
     for j in range(i+1,len(raised)):
         raised_normalized.append(normal_form_raised.replace('low',raised[i]).replace('high',raised[j]))
+        break
 data = []    
 for keyword in keywords: 
     for curr_raise in raised_normalized:      
