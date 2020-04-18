@@ -67,6 +67,7 @@ for keyword in keywords:
         driver.quit()
         print('Number of companies extracted:' + str(len(uniques)))
         df = pd.DataFrame(data)
+        print(data)
         df.to_csv('Companies.csv')
         
 df = pd.DataFrame(data)
