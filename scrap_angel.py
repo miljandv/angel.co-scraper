@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 urlpage = 'https://angel.co/companies'
 
 read = pd.read_csv('Companies.csv')
-uniques = read.iloc[:, 1]
+uniques = read.iloc[:, 1].to_list()
 
 with open("cfgs/search_words.txt") as f:
     content = f.readlines()
@@ -19,7 +19,7 @@ with open("cfgs/permutators.txt") as f:
 permutations = [x.strip() for x in content]
 permutation = 2**len(permutations)-1
 
-data = read               
+data = read
 for keyword in keywords:
     for permut in range(1, permutation):
         driver = webdriver.Firefox(executable_path='geckodriver')
@@ -65,8 +65,8 @@ for keyword in keywords:
                     "Angel link": angel_link,
                     "Location": location,
                     "Website": website,
-                    "Number of employees": employees})
-                uniques.append(company_name, ignore_index=True)
+                    "Number of employees": employees}, ignore_index=True)
+                uniques.append(company_name)
         driver.quit()
         print('Number of companies extracted:' + str(len(uniques)))
         df = pd.DataFrame(data)
