@@ -7,7 +7,11 @@ from selenium.webdriver.common.keys import Keys
 
 
 def setup():
-    companies = pd.read_csv('Companies.csv')
+    try:
+        companies = pd.read_csv('Companies.csv')
+    except pd.io.common.EmptyDataError:
+        print("Companies.csv is empty")
+
     uniques = companies.iloc[:, 1].to_list()
     with open("cfgs/search_words.txt") as f:
         content = f.readlines()
@@ -22,7 +26,7 @@ def setup():
 
 def main():
     target_url = 'https://angel.co/companies'
-    data, keywords, n_permutations, permutations, uniques = setup()
+    companies, keywords, n_permutations, permutations, uniques = setup()
 
     for keyword in keywords:
         for permutation in range(1, n_permutations):
@@ -68,7 +72,6 @@ def main():
                 "//*[@class='main_container']//*[@class='base startup']//*[@class='column website']//*[@class='value']")
             results_employees = driver.find_elements_by_xpath(
                 "//*[@class='main_container']//*[@class='base startup']//*[@class='column company_size']//*[@class='value']")
-            # result_raised = driver.find_elements_by_xpath("//*[@class='main_container']//*[@class='base startup']//*[@class='column raised hidden_column']//*[@class='value']")
 
             for i in range(len(results)):
                 company_name = results[i].text
@@ -77,7 +80,7 @@ def main():
                 website = results_websites[i].text
                 employees = results_employees[i].text
                 if company_name not in uniques:
-                    data.append({
+                    companies.append({
                         "Company name": company_name,
                         "Angel link": angel_link,
                         "Location": location,
@@ -86,12 +89,9 @@ def main():
                     uniques.append(company_name)
             driver.quit()
             print('Number of companies extracted:' + str(len(uniques)))
-            df = pd.DataFrame(data)
-            print(data)
-            df.to_csv('Companies.csv')
-    df = pd.DataFrame(data)
-    print(df)
-    df.to_csv('Companies.csv')
+            print(companies)
+
+            companies.to_csv('Companies.csv')
 
 
 if __name__ == '__main__':
