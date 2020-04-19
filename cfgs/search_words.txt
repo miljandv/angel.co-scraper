@@ -1,5 +1,10 @@
-AI
 Artificial Intelligence
+AI
+Machine Learning
+ML
+Data Analysis
+Data Engineering
+Image Recognition
 Data
 Data Science
 IoT
